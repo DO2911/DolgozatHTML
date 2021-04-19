@@ -1,0 +1,65 @@
+body{
+    background-image: url(img/grass.jpg);
+    background-color: #8c8;
+    width: 1200px;
+    max-width: 100%;
+    text-align: center;
+    font: White, Verdana;
+}
+
+.doboz{
+    background-color: #08f;
+    background-image: url(img/splash.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    max-width: 970px;
+    border-radius: 1500px;
+    margin: auto;
+    
+}
+.doboz img{
+    border-radius: 1500px;
+    max-width: 970px;
+}
+.doboz #focim{
+    max-width: 400px;
+    text-align: center;
+    
+}
+h1{text-align: center;
+
+
+};
+h1:not(#focim) {border-bottom: 2px solid #fff;}
+
+.doboz:nth-child(even){
+margin-left: 20%;
+}
+.doboz:nth-child(odd){
+margin-right: 20%;
+}
+table{
+    border-color: blue;
+    float:right;
+  
+}
+table.adat tr td:nth-child(1){
+font: bold;
+}
+table.adat tr td:nth-child(2){
+    width: 210px;
+}
+img[src="img/map.png"]{
+    float: left;
+    width: 20px;
+}
+table a:hover{
+    background-color:yellow;
+}
+.galeria.kiskep{
+    
+     width: 140px;
+     height: 140px;
+     line-height: 136px;
+     
+}
